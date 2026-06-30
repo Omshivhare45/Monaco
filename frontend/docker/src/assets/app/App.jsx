@@ -39,7 +39,7 @@ function App() {
     if (!username || !editorReady || !editorRef.current) return;
 
     const provider = new SocketIOProvider(
-      "http://localhost:3000",
+      "/",
       "monaco",
       ydoc,
       {
